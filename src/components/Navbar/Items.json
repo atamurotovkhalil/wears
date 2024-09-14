@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "name": "Top Rated",
+      "link": "/Services"
+    },
+    {
+      "id": 3,
+      "name": "Kids Wear",
+      "link": "/kidswear"
+    },
+    {
+      "id": 4,
+      "name": "Mens Wear",
+      "link": "/menswear"
+    },
+    {
+      "id": 5,
+      "name": "Products",
+      "link": "/perproducts"
+    }
+  ]
