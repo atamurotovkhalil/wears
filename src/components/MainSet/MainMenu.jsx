@@ -67,7 +67,7 @@ export const MainMenu = ({ handleOrderPopup }) => {
       ></div>
       <div className="container pb-8 sm:pb-0">
         <Slider {...settings}>
-          {ImageList.map((data) => (
+          {ImageList?.map((data) => (
             <div>
               <div className="grid grid-cols-1 sm:grid-cols-2">
                 <div

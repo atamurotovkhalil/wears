@@ -7,7 +7,7 @@
     {
       "id": 2,
       "name": "Top Rated",
-      "link": "/Services"
+      "link": "/toprated"
     },
     {
       "id": 3,
@@ -22,6 +22,6 @@
     {
       "id": 5,
       "name": "Products",
-      "link": "/perproducts"
+      "link": "/productlist"
     }
   ]

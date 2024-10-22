@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Shirt 1",    
+      "price": 11,
+      "availability": true,
+      "image": "../../../public/products/Image1.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum minima numquam necessitatibus aspernatur ducimus aliquid qui accusantium recusandae delectus,"
+    },
+    {
+      "id": 2,
+      "name": "Shirt 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum minima numquam necessitatibus aspernatur ducimus aliquid qui accusantium recusandae delectus,",
+      "price": 12,
+      "availability": true,
+      "image": "../../../public/products/Image2.jpg"
+    },
+    {
+     "id": 3,
+      "name": "Shirt 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum minima numquam necessitatibus aspernatur ducimus aliquid qui accusantium recusandae delectus,",
+      "price": 13,
+      "availability": false,
+      "image": "../../../public/products/Image3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Shirt 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum minima numquam necessitatibus aspernatur ducimus aliquid qui accusantium recusandae delectus,",
+      "price": 14,
+      "availability": false,
+      "image": "../../../public/products/Image4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Shirt 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum minima numquam necessitatibus aspernatur ducimus aliquid qui accusantium recusandae delectus,",
+      "price": 15,
+      "availability": true,
+      "image": "../../../public/products/Image5.jpg"
+    }
+  ]

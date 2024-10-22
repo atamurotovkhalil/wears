@@ -77,7 +77,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div
               className={
                 !nav
-                  ? "fixed z-40   right-0 top-0 w-[50%] h-[100%] border-l border-r-gray-900 bg-orange-600 ease-in-out duration-300"
+                  ? "fixed z-40   right-0 top-0 w-[50%] h-[90%] border-l rounded-l-md border-l-gray-900 bg-orange-600 ease-in-out duration-300"
                   : "fixed left-[-100%]"
               }
             >
@@ -95,7 +95,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 <input
                   type="text"
                   placeholder="search"
-                  className="w-full rounded-full border border-gray-300
+                  className="w-full rounded-md border border-gray-300
                         focus:outline-none focus:border-1 focus:border-orange-600
                         dark:border-gray-500 
                         dark:bg-gray-800"
@@ -105,10 +105,13 @@ const Navbar = ({ handleOrderPopup }) => {
                         absolute top-1/2 -translate-y-1/2 right-3"
                 />
               </div>
-              <div className="flex items-center text-center justify-center">
-              <ul className="pt-15 p-4 font-bold-100">
+              <div
+              className="flex  items-center text-center justify-center">
+              <ul className="pt-15 px-8 border rounded-xl text-white bg-gray-700 font-bold-100">
                 {Items.map((item) => (
-                  <li className="p-4 border-t-2   border-gray-900">
+                  <li 
+                  key={item?.id}
+                  className="p-4 border-t-2   border-gray-900">
                     <a href={item.link}>
                     {item.name}</a>
                   </li>
@@ -116,7 +119,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </ul>
               </div>
               <div className="w-full p-2">
-                  <div className='flex items-center gap-7 px-3  mt-6'>
+                  <div className='flex border rounded-xl  text-white bg-gray-700 items-center gap-7 px-3  mt-6'>
                         <a href='#'>
                           <FaInstagram className='text-3xl'/>
                         </a>
@@ -127,8 +130,8 @@ const Navbar = ({ handleOrderPopup }) => {
                           <FaLinkedin className='text-3xl'/>
                         </a>
                   </div>
-                  <div className='mt-6'>
-                        <div className='flex items-center gap-3'>
+                  <div className=' border rounded-xl  text-white bg-gray-700 mt-6 p-3'>
+                        <div className='flex  items-center gap-3'>
                               <FaLocationArrow/>
                               <p>Busan, South Korea</p>
                         </div>
@@ -166,7 +169,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </span>
             </a>
             <div
-              className="absolute z-[9999] hidden group-hover:block w-[200px] 
+              className="absolute z-[9999] dark:bg-gray-800 dark:text-white hidden group-hover:block w-[200px] 
                     rounded-md bg-white p-2 text-black shadow-md"
             >
               <ul>
@@ -174,7 +177,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   <li key={item.id}>
                     <a
                       href={item.link}
-                      className="inline-block w-full rounded-md p-2
+                      className="inline-block  w-full rounded-md p-2
                                     hover:bg-orange-600"
                     >
                       {item.name}

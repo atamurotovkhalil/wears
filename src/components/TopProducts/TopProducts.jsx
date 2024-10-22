@@ -35,7 +35,7 @@ const ProductsData = [
 const TopProducts = ( {handleOrderPopup}) => {
   return (
     <div>
-        <div className='container'>
+        <div className='container p-5'>
             <div className='text-left mb-24 '>
                 <p data-aos='fade-up' className='text-sm text-orange-700'>Top Rated Products for you</p>
                 <h1 data-aos='fade-up' className='text-3xl font-bold'>

@@ -4,9 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { AuthContextProvider } from './components/PersonalProducts/AuthContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  
+    <AuthContextProvider>
     <App />
-  </StrictMode>,
+    </AuthContextProvider>
 )
